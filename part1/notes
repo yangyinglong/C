@@ -1,0 +1,12 @@
+1.	在大多数情况下，头文件包含了编译器创建最终可执行程序需要用到的信息。例如，头文件中可以定义一些常量，或者指明函数名以及如何使用它们。但是，函数的实际代码在一个预编译代码的库文件中。简而言之，头文件帮助编译器把你的程序正确地组合在一起。
+
+2.	C 的基本数据类型分为两大类: 整数类型和浮点数类型.
+3.	整数类型通过 分配的储存量以及是有符号还是无符号,区分不同的整数类型.
+4.	最小的整数类型是char,可以分为有符号的char和无符号的char,即unsigned char 或者是 signed char.
+5.	其他的整数类型有 short, int, long, long long类型,　Ｃ规定，后面的类型不能小于前面的类型，这些都是有符号的类型．
+６．	同时可以用unsigned关键字来创建相应的无符号类型：unsigned short, unsigned int, unsigned long和unsigned long long．
+７．	_Bool　类型是一种无符号类型，可以存储０或者１，分别代表false和true.
+
+8.	浮点数有３种：float,double和C90新增的long double.
+9.	复数类型和虚数类型通过关键字：_Complex和_Imaginary与浮点数类型的关键字组合，如double _Complex类型和float _Imaginary类型．
+10.	整数可以表示为十进制，八进制，十六进制．　０前缀表示八进制数，０x或者0X前缀表示十六进制数，l或者Ｌ前缀表示改值是long类型，ll或者LL标明是long long 类型．
